@@ -30,8 +30,8 @@ public class myclass {
 			driver.findElement(By.id("btnSubmit")).click();
 			
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-			driver.findElement(By.id("Button4")).click();
-			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			//driver.findElement(By.id("Button4")).click();
+			//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			driver.findElement(By.id("txtSearch")).sendKeys("itime");
 			
 			 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
